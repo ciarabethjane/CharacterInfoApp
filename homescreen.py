@@ -11,7 +11,7 @@ class CharacterInfo(App,GridLayout,ButtonBehavior):
     def __init__(self):
         super(CharacterInfo, self).__init__()
         self.cols = 2
-        self.characters = pd.read_csv("collectionTracker.py/items.csv")
+        self.characters = pd.read_csv("items.csv")
         self.imgSource = []
         self.charNames = []
         self.charBdays = []
